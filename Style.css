@@ -1,0 +1,92 @@
+h1{
+	color: white;
+	font-size: 80px; 
+	letter-spacing: 5px;
+	transform: translate(225%, 235%);
+}
+
+#banner {
+	width: 100%;
+position: relative;
+}
+
+
+.cards{
+	width: 300px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 30px;
+
+}
+
+body{
+	background-color: #FAB1F8;
+	font-family: 'Georama', sans-serif;
+	text-align: center;
+}
+
+li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	font-size: 150%;
+	font-weight: bold;
+	color: black;
+}
+h2{
+	font-size: 250%;
+	color: black;
+	padding: 30px;
+}
+
+
+#topbanner>h2{
+	background-color: #E5A7C2;
+	padding: 10px;
+	border-radius: 20px;
+	opacity: 0.8;
+	border: :2px solid black;
+	top: 100%;
+	left: 40%;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#topbanner{
+	display: flex;
+}
+
+h1,#topbanner>h2{
+	position: absolute;
+}
+
+#crafts{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+iframe{
+	border-radius: 30px;
+}
+
+
+#Others{
+	font-size: 20px;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-around;
+}
+
+h3{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+
